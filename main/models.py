@@ -4,7 +4,6 @@ from django.db import models
 import uuid  # for generating uuid
 import datetime
 
-from django.contrib.postgres.fields import ArrayField
 from django.contrib.auth.base_user import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from .managers import UserManager
